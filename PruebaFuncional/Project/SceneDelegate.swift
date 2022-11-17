@@ -16,13 +16,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         guard let scene = (scene as? UIWindowScene) else { return }
         
-        let routing = Routing()
+        let routing = HomeRouting()
 
         let window = UIWindow(windowScene: scene)
         
         self.window = window
 
-        self.window?.rootViewController = routing.navigationControllerrouting.navigationController
+        self.window?.rootViewController = routing.navigationController
  
         self.window?.makeKeyAndVisible()
         

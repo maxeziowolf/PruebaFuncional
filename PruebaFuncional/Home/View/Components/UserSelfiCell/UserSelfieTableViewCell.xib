@@ -34,6 +34,7 @@
                         </connections>
                     </button>
                 </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
                     <constraint firstAttribute="trailing" secondItem="qpG-db-saq" secondAttribute="trailing" constant="20" id="NuJ-Dp-wg6"/>
                     <constraint firstItem="qpG-db-saq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="UC7-pi-Pv0"/>
@@ -42,6 +43,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
                 <outlet property="btnSelfie" destination="qpG-db-saq" id="hkn-T7-GfO"/>
             </connections>

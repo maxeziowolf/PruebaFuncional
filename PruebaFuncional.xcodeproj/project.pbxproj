@@ -27,6 +27,17 @@
 		D6FB956229259EB900740C98 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB955E29259EB900740C98 /* Entity.swift */; };
 		D6FB956329259EB900740C98 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB955F29259EB900740C98 /* Presenter.swift */; };
 		D6FB956429259EB900740C98 /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB956029259EB900740C98 /* Routing.swift */; };
+		D6FB956B2925A05300740C98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6FB956A2925A05300740C98 /* GoogleService-Info.plist */; };
+		D6FB95722925AC9700740C98 /* LoadingModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB95702925AC9700740C98 /* LoadingModalViewController.swift */; };
+		D6FB95732925AC9700740C98 /* LoadingModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FB95712925AC9700740C98 /* LoadingModalViewController.xib */; };
+		D6FB95772925AFB200740C98 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB95752925AFB200740C98 /* GraphViewController.swift */; };
+		D6FB95782925AFB200740C98 /* GraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6FB95762925AFB200740C98 /* GraphViewController.xib */; };
+		D6FB957E2925B10600740C98 /* GraphRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB957D2925B10600740C98 /* GraphRouting.swift */; };
+		D6FB95802925B15400740C98 /* GraphEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB957F2925B15400740C98 /* GraphEntity.swift */; };
+		D6FB95822925B1C700740C98 /* GraphPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB95812925B1C700740C98 /* GraphPresenter.swift */; };
+		D6FB95842925B20900740C98 /* GraphInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB95832925B20900740C98 /* GraphInteractor.swift */; };
+		D6FB95872925B81F00740C98 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB95852925B81B00740C98 /* Api.swift */; };
+		D6FB95882925B81F00740C98 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FB95862925B81F00740C98 /* APIRequests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +84,17 @@
 		D6FB955E29259EB900740C98 /* Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		D6FB955F29259EB900740C98 /* Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
 		D6FB956029259EB900740C98 /* Routing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routing.swift; sourceTree = "<group>"; };
+		D6FB956A2925A05300740C98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D6FB95702925AC9700740C98 /* LoadingModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModalViewController.swift; sourceTree = "<group>"; };
+		D6FB95712925AC9700740C98 /* LoadingModalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingModalViewController.xib; sourceTree = "<group>"; };
+		D6FB95752925AFB200740C98 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		D6FB95762925AFB200740C98 /* GraphViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GraphViewController.xib; sourceTree = "<group>"; };
+		D6FB957D2925B10600740C98 /* GraphRouting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphRouting.swift; sourceTree = "<group>"; };
+		D6FB957F2925B15400740C98 /* GraphEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphEntity.swift; sourceTree = "<group>"; };
+		D6FB95812925B1C700740C98 /* GraphPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphPresenter.swift; sourceTree = "<group>"; };
+		D6FB95832925B20900740C98 /* GraphInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphInteractor.swift; sourceTree = "<group>"; };
+		D6FB95852925B81B00740C98 /* Api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		D6FB95862925B81F00740C98 /* APIRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +168,7 @@
 				D6FB956929259EFB00740C98 /* Graph */,
 				D6FB951829257CD100740C98 /* Home */,
 				D6FB94F629257C3600740C98 /* Info.plist */,
+				D6FB956A2925A05300740C98 /* GoogleService-Info.plist */,
 			);
 			path = PruebaFuncional;
 			sourceTree = "<group>";
@@ -213,6 +236,9 @@
 		D6FB95272925804600740C98 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D6FB95852925B81B00740C98 /* Api.swift */,
+				D6FB95862925B81F00740C98 /* APIRequests.swift */,
+				D6FB956C2925AC5900740C98 /* Components */,
 				D6FB95282925805700740C98 /* Utils.swift */,
 				D6FB952A292581B700740C98 /* Extensions.swift */,
 				D6FB95362925902300740C98 /* JPieChart.swift */,
@@ -273,8 +299,63 @@
 		D6FB956929259EFB00740C98 /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				D6FB95742925AF8100740C98 /* View */,
+				D6FB95792925B06C00740C98 /* Interactor */,
+				D6FB957A2925B07F00740C98 /* Presenter */,
+				D6FB957B2925B08500740C98 /* Entity */,
+				D6FB957C2925B08B00740C98 /* Routing */,
 			);
 			path = Graph;
+			sourceTree = "<group>";
+		};
+		D6FB956C2925AC5900740C98 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB95702925AC9700740C98 /* LoadingModalViewController.swift */,
+				D6FB95712925AC9700740C98 /* LoadingModalViewController.xib */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D6FB95742925AF8100740C98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB95752925AFB200740C98 /* GraphViewController.swift */,
+				D6FB95762925AFB200740C98 /* GraphViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D6FB95792925B06C00740C98 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB95832925B20900740C98 /* GraphInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D6FB957A2925B07F00740C98 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB95812925B1C700740C98 /* GraphPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D6FB957B2925B08500740C98 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB957F2925B15400740C98 /* GraphEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D6FB957C2925B08B00740C98 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				D6FB957D2925B10600740C98 /* GraphRouting.swift */,
+			);
+			path = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,11 +465,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6FB9530292587D500740C98 /* UserSelfieTableViewCell.xib in Resources */,
+				D6FB95732925AC9700740C98 /* LoadingModalViewController.xib in Resources */,
+				D6FB95782925AFB200740C98 /* GraphViewController.xib in Resources */,
 				D6FB953529258AFB00740C98 /* GraphDescriptionTableViewCell.xib in Resources */,
 				D6FB94F529257C3600740C98 /* LaunchScreen.storyboard in Resources */,
 				D6FB952629257F1E00740C98 /* NameUserTextfieldTableViewCell.xib in Resources */,
 				D6FB94F229257C3600740C98 /* Assets.xcassets in Resources */,
 				D6FB951E29257D0200740C98 /* HomeViewController.xib in Resources */,
+				D6FB956B2925A05300740C98 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,18 +539,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FB95822925B1C700740C98 /* GraphPresenter.swift in Sources */,
+				D6FB957E2925B10600740C98 /* GraphRouting.swift in Sources */,
 				D6FB94E929257C3400740C98 /* AppDelegate.swift in Sources */,
 				D6FB952F292587D500740C98 /* UserSelfieTableViewCell.swift in Sources */,
 				D6FB956429259EB900740C98 /* Routing.swift in Sources */,
 				D6FB956129259EB900740C98 /* Interactor.swift in Sources */,
 				D6FB952529257F1E00740C98 /* NameUserTextfieldTableViewCell.swift in Sources */,
+				D6FB95882925B81F00740C98 /* APIRequests.swift in Sources */,
 				D6FB94EB29257C3400740C98 /* SceneDelegate.swift in Sources */,
+				D6FB95802925B15400740C98 /* GraphEntity.swift in Sources */,
+				D6FB95772925AFB200740C98 /* GraphViewController.swift in Sources */,
 				D6FB951D29257D0200740C98 /* HomeViewController.swift in Sources */,
 				D6FB956329259EB900740C98 /* Presenter.swift in Sources */,
 				D6FB953429258AFB00740C98 /* GraphDescriptionTableViewCell.swift in Sources */,
 				D6FB956229259EB900740C98 /* Entity.swift in Sources */,
 				D6FB95292925805700740C98 /* Utils.swift in Sources */,
+				D6FB95842925B20900740C98 /* GraphInteractor.swift in Sources */,
 				D6FB95372925902300740C98 /* JPieChart.swift in Sources */,
+				D6FB95722925AC9700740C98 /* LoadingModalViewController.swift in Sources */,
+				D6FB95872925B81F00740C98 /* Api.swift in Sources */,
 				D6FB952B292581B800740C98 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,11 +729,13 @@
 				DEVELOPMENT_TEAM = 7BU6L2YRP3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PruebaFuncional/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -669,11 +763,13 @@
 				DEVELOPMENT_TEAM = 7BU6L2YRP3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PruebaFuncional/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
